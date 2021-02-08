@@ -1,0 +1,49 @@
+.welcome-header {
+  text-align: center;
+  margin-top: 23%;
+  margin-bottom: 20%;
+}
+.welcome-header__title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.welcome-header__text {
+  margin-top: 5%;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  line-height: 20px;
+}
+
+#account {
+  font-size: 20px;
+  width: 70%;
+  margin: 0% 15%;
+}
+.account__next,
+#account label,
+#account input {
+  border: none;
+  padding: 10px 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: start;
+}
+
+#account div {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+/*account 만 not 하는 방법을 아직 모룸 시도하다 실패함 그리고 폼 작성하는 칸이 너무 작음*/
+.account__next,
+#account input[type="submit"] {
+  background-color: var(--back-purple);
+  height: 40px;
+  width: 100%;
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 25px;
+  /* 깃허브에 올라갔는지 확인해 보는용도*/
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANNA BE YOUR STAR :)</title>
+</head>
+<body>
+
+    <!-- 상단바 -->
+
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>FANTAGIO</span>
+            <i class="fas fa-wifi"></i>
+          
+    
+        </div>
+        <div class="status-bar__column">
+            <span>20:16</span>
+
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-lock-open"></i>
+            <span>223%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+
+        </div>
+
+        <h2>I WANNA KNOW ABOUT YOU, ROHA ♡</h2>
+
+        
+    <form class="survey">
+        <div>
+            <label for="survey__username">Username : </label>
+            <input type="text"id="survey__username" placeholder="Username" required/>
+        </div>
+
+        <div>
+            <label for="survey__year"> When did you fall in ASTRO?</label>
+            <input type="month" id="survey__year" required/>
+        </div>
+
+        
+        <div>
+            <label for="survey__birthday">When is your Birth day?  </label>
+            <input type="date" id="survry__birthday" required/>
+        </div>
+    
+        <div>
+            <label for="survey__howhappy">How much do you love ASTRO?</label>
+            <input type="range" id="survey__howlove" list="tickmarks" required>
+
+    
+             <datalist id="tickmarks">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+             </datalist>
+    
+        </div>
+    
+        <div>
+            <label for="account__color">What is your fav.color? </label>
+            <input type="color" id="account__color" required/>
+        </div>
+
+        <div>
+            <input type="submit" value="submit" class="survey__submit">
+        </div>
+    </form>
+
+    
+</body>
+</html>
