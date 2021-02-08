@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="css/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
+    maximum-scale=1.0, minimum-scale=1.0">
     <title>WANNA BE YOUR STAR :)</title>
 </head>
 <body>
@@ -28,14 +30,15 @@
             <i class="fas fa-bolt"></i>
 
         </div>
+    </div>
 
-        <h2>I WANNA KNOW ABOUT YOU, ROHA ♡</h2>
 
-        
-    <form class="survey">
+        <h2 class="survey-header">I WANNA KNOW ABOUT YOU, <br> ROHA ♡</h2>
+
+    <form action="survey.html" method="GET" id="survey">
         <div>
             <label for="survey__username">Username : </label>
-            <input type="text"id="survey__username" placeholder="Username" required/>
+            <input type="text"id="survey__username" required/>
         </div>
 
         <div>
@@ -50,10 +53,10 @@
         </div>
     
         <div>
-            <label for="survey__howhappy">How much do you love ASTRO?</label>
-            <input type="range" id="survey__howlove" list="tickmarks" required>
+            <label for="survey__howhappy" ">How much do you love ASTRO?</label>
+           <br> <input type="range" id="survey__howlove" list="tickmarks" required>
 
-    
+    <!--행복도 위에 마진을 주고 싶은데 그 라벨에만 줄 수 있는 방법이 뭐가 있을까-->
              <datalist id="tickmarks">
                 <option value="0"></option>
                 <option value="10"></option>
@@ -76,10 +79,15 @@
         </div>
 
         <div>
-            <input type="submit" value="submit" class="survey__submit">
+            <input type="submit" value="submit" class="survey__submit"/>
         </div>
     </form>
 
+    
+    <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"
+  ></script>
     
 </body>
 </html>
